@@ -264,6 +264,7 @@ local permagbot7 = [[
 🎗》#مدیریت
 ☆حذف و نصب پلاگین ها
 🎗》#پلاگین
+#نرخ
 ==============
 🎲دستورات قفل و مدیریت فقط برای مدیران ربات کار میکند 
 دستورات بخش فان برای همه کاربران کار میکند
@@ -313,6 +314,15 @@ mesal : pattern azan
 
 ...
 ]]
+	
+local permagbot9 = [[
+قیمت ربات
+نرخ!
+!nerkh
+
+...
+]]
+	
     if matches[1] == 'مدیریت' and is_momod(msg) then
         return permagbot  
   elseif matches[1] == 'قفل' and is_momod(msg) then
@@ -322,6 +332,8 @@ mesal : pattern azan
   elseif matches[1] == 'help' and is_momod(msg) or matches[1] == 'راهنما' and is_momod(msg) then
 		return permagbot7
   elseif matches[1] == 'پلاگین' and is_momod(msg) then
+		return permagbot8
+  elseif matches[1] == 'نرخ' and is_momod(msg) then
 		return permagbot8
   end
 end
@@ -336,6 +348,7 @@ return {
     '^[!#/](فان)$',
     '^[!#/](help)$',
     '^[!#/](راهنما)$',
+    '^[!#/](نرخ)$',
       },
       run = run,
 }
