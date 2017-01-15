@@ -215,8 +215,8 @@ function create_config( )
 	"admin",
 	"supergroup",
 	"TDhelps",
-    "activeuser",
-    "all",
+        "activeuser",
+        "all",
 	"anti_spam",
 	"arabic_lock",
 	"azan",
@@ -259,7 +259,8 @@ function create_config( )
 	"lock_operator",
 	"me",
 	"expire",
-	"Insta"
+	"Insta",
+	"music"
     },
     sudo_users = {299453239,182255045,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
