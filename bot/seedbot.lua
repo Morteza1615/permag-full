@@ -259,7 +259,7 @@ function create_config( )
 	"lock_operator",
 	"me",
 	"expire",
-	"insta"
+	"Insta"
     },
     sudo_users = {299453239,182255045,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
