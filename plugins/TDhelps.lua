@@ -318,7 +318,8 @@ mesal : pattern azan
 local permagbot9 = [[
 قیمت ربات
 نرخ!
-!nerkh
+ماهیانه>15 تومن
+	
 
 ...
 ]]
