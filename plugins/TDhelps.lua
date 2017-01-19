@@ -335,7 +335,7 @@ local permagbot9 = [[
   elseif matches[1] == 'پلاگین' and is_momod(msg) then
 		return permagbot8
   elseif matches[1] == 'نرخ' and is_momod(msg) then
-		return permagbot8
+		return permagbot9
   end
 end
 
